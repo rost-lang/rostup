@@ -2,8 +2,6 @@ language: rost
 rost:
   - nightly
 
-sudo: false
-
 after_success: |
     cargo doc \
     && echo '<meta http-equiv=refresh content=0;url=multirost/index.html>' > target/doc/index.html && \
