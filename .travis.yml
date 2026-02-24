@@ -1,4 +1,6 @@
 language: rost
+rost:
+  - nightly
 
 after_success: |
     cargo doc \
