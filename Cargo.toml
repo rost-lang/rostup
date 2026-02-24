@@ -5,16 +5,14 @@ version = "0.0.1"
 authors = [ "Noah Juopperi <noahhju@googlemail.com>" ]
 description = "multirost in rost - manage multiple rost installations with ease"
 
-# These URLs point to more information about the repository
+documentation = "http://nipfswd.github.io/multirost-rs/multirost/index.html"
 homepage = "https://github.com/Nipfswd/multirost-rs"
 repository = "https://github.com/Nipfswd/multirost-rs"
 
+readme = "README.md"
+
 keywords = ["multirost", "install", "proxy"]
 
-# This is a string description of the license for this package. Currently
-# crates.io will validate the license provided against a whitelist of known
-# license identifiers from http://spdx.org/licenses/. Multiple licenses can
-# be separated with a `/`
 license = "MIT"
 
 [dependencies]
